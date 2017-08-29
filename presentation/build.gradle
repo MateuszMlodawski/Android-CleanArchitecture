@@ -72,6 +72,10 @@ dependencies {
   compile presentationDependencies.rxJava
   compile presentationDependencies.rxAndroid
   provided presentationDependencies.javaxAnnotation
+  compile presentationDependencies.androidLifecycle
+  compile presentationDependencies.androidRoom
+  apt presentationDependencies.androidLifecycleCompiler
+  apt presentationDependencies.androidRoomCompiler
 
   androidTestCompile presentationTestDependencies.mockito
   androidTestCompile presentationTestDependencies.dexmaker

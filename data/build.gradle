@@ -59,6 +59,10 @@ dependencies {
   compile dataDependencies.rxJava
   compile dataDependencies.rxAndroid
   compile dataDependencies.androidAnnotations
+  compile dataDependencies.androidLifecycle
+  compile dataDependencies.androidRoom
+  apt dataDependencies.androidLifecycleCompiler
+  apt dataDependencies.androidRoomCompiler
 
   testCompile testDependencies.junit
   testCompile testDependencies.assertj
